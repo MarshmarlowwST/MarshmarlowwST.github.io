@@ -1,13 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'sans-serif';
+    font-family: "LOL";
     box-sizing: border-box;  
 }
 
+@font-face {
+    font-family: "LOL";
+    src: url("fonts/love.ttf");
+}
+
 body {
-    background-image: url(images/Pig.gif);
-    background-size: 100%, 100%;
+    background-image: url(images/HeartsBackground.gif);
+    background-size: 50%, 50%;
 }
 
 
@@ -17,9 +22,55 @@ body {
     color: white;
 }
 
-.text {
-    text-align: right;
+.text0 {
+    text-align: center;
+    position:relative; 
+    top: 60;;
+    font-size:50px;
+    color: black
 }
+
+.text {
+    text-align: center;
+    position:relative; 
+    top: 60;;
+    font-size:80px;
+    color: black
+}
+
+.text2 {
+    text-align: center;
+    position:relative; 
+    top: 60;;
+    font-size:30px;
+    color: black
+}
+
+.text3 {
+    text-align: center;
+    position:relative; 
+    top: 150;;
+    font-size:15px;
+    color: black
+}
+
+.thestart {
+    text-align: center;
+    position:relative; 
+    top: 150;;
+    font-size:15px;
+    color: black
+}
+
+
+.text4 {
+    text-align: center;
+    position:relative; 
+    top: 150;;
+    font-size:15px;
+    color: black
+}
+
 
 nav {
     display: flex;
